@@ -49,13 +49,15 @@ img {
   height: 15em;
   object-fit: cover; }
 
-.rating {
+.like {
   color: #32a23d;
   font-size: 1.2em;
   text-align: right;
   position: absolute;
   bottom: 1em;
   right: 1em; }
+  .like:hover {
+    cursor: pointer; }
 
 .score {
   background-color: #32a23d;
