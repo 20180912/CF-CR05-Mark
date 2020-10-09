@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 1em;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+a:link, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+header {
+  background-color: #000000;
+  padding: 0.2em;
+  text-align: center;
+  font-size: 2.5em; }
+
+nav {
+  background-color: #454545;
+  padding: 0.2em 0 0.2em 0.5em;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+footer {
+  background-color: #000000;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 2em; }
+
+#subheader {
+  text-align: center;
+  font-size: 1.5em; }
+
+#sort {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 1.2em; }
+
+#movies > div > div {
+  background-color: #181818; }
+
+img {
+  max-width: 10em; }
+
+.rating {
+  color: #32a23d;
+  font-size: 1.2em;
+  text-align: right;
+  position: absolute;
+  bottom: 1em;
+  right: 1em; }
+
+.score {
+  background-color: #32a23d;
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  padding: 3%; }
+
+/*# sourceMappingURL=style.css.map */

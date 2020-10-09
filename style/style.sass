@@ -1,0 +1,70 @@
+//Importing color settings
+@import 'colors'
+//Importing font settings
+@import 'fonts'
+
+//Resetting default settings  
+*
+    font-family: $text-font
+    color: $primary-text
+    font-size: 1em
+    width: 100%
+    margin: 0
+    padding: 0
+
+//Unsetting the default formatting for links
+a:link, a:visited
+    text-decoration: none
+
+a:hover
+    text-decoration: none
+
+header
+    background-color: $tertiary-background
+    padding: 0.2em
+    text-align: center
+    font-size: 2.5em
+
+nav
+    background-color: $quaternary-background
+    padding: 0.2em 0 0.2em 0.5em
+    font-size: 1.5em
+    font-weight: bold
+
+footer
+    background-color: $tertiary-background
+    padding: 0.5em
+    text-align: center
+    font-size: 2em
+
+//Content
+#subheader
+    text-align: center
+    font-size: 1.5em
+
+#sort
+    background-color: $secondary-other
+    border: none
+    font-size: 1.2em
+
+#movies > div > div
+    background-color: $secondary-background
+
+img
+    max-width: 10em
+
+.rating
+    color: $secondary-text
+    font-size: 1.2em
+    text-align: right
+    position: absolute
+    bottom: 1em
+    right: 1em
+
+.score
+    background-color: $primary-other
+    height: 8em
+    width: 8em
+    border-radius: 50%
+    padding: 3%
+
